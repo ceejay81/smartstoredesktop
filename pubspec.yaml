@@ -1,0 +1,33 @@
+name: smartstore
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  google_fonts: ^6.2.1
+  flutter_zoom_drawer: ^3.2.0
+  font_awesome_flutter: ^10.8.0
+  sqflite_common_ffi: ^2.3.3  # Added for SQLite support on Windows/macOS/Linux
+  mysql1: ^0.20.0  # For MySQL connection
+  bcrypt: ^1.1.3
+  crypto: ^3.0.3
+  fl_chart: ^0.66.2
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
